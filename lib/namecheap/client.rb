@@ -65,7 +65,7 @@ module Namecheap
         :AuxBillingCountry => contact_hash[:country],
         :AuxBillingPhone => contact_hash[:phone],
         :AuxBillingEmailAddress => contact_hash[:email],
-	:AddFreeWhoisguard => contact_hash[:whois_guard]
+	:AddFreeWhoisguard => contact_hash[:whois_guard],
 	:WGEnabled => contact_hash[:whois_guard_enabled]
       }
       if domain_name.end_with?('.us')
